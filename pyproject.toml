@@ -1,0 +1,16 @@
+[project]
+name = "baby-names-visualization"
+version = "0.1.0"
+description = "Initial implementation for the Telecom Paris baby names visualization mini-project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "altair",
+    "geopandas",
+    "notebook",
+    "pandas",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
